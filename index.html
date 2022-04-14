@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rollDicer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>RollDicer 1.1</h1>
+  <hr> 
+  <br>
+  <br>
+    <div>
+    <label for="dn"><b>Qtd, Dices</b></label>
+    <input id="dn" type="number" value="1" min="1">
+      </div>
+  <br>
+  <div>
+    <p><b>Dice</b></p>
+    <br>
+    <input id="d4" type="radio" name="faces" value="4">
+    <label for="d4"><b>D4</b></label>
+    <input id="d10" type="radio" name="faces" value="10">
+    <label for="d10"><b>D10</b></label>
+    <input id="d20" type="radio" name="faces" value="20">
+    <label for="d20"><b>D20</b></label>
+    </div>
+  <br>
+  <button onclick="rolar()">Roll</button>
+  <div id="res"><b>as novinhas malada do insta</b></div>
+  <div id="rolagens"></div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
